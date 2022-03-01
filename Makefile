@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-O2 -ggdb -Iinclude
-LDFLAGS=-lSDL -lSDL_ttf -lSDL_image
+LDFLAGS=-lSDL -lSDL_ttf -lSDL_image -lpthread
 OBJ=karel.o lib/libkarel.a
 
 karel: $(OBJ)
