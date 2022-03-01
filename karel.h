@@ -7,6 +7,8 @@ extern Karel karel;
 extern SDL_Surface *errorImage, *karelRightImage, *karelLeftImage, *karelUpImage, *karelDownImage, *beeperImage;
 extern World world;
 
+void loadWorld(char *name);
+
 void drawKarel(void);
 void setup(void);
 void run(void);
